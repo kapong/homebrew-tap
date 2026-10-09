@@ -1,8 +1,8 @@
 class Wgmenu < Formula
   desc "Menu bar app to run multiple WireGuard tunnels at once"
   homepage "https://github.com/kapong/WGMenu"
-  url "https://github.com/kapong/WGMenu/archive/refs/tags/v0.3.1.tar.gz"
-  sha256 "71d32d01db5f8c5dc2d0373b82d0b1810dab011f195094661b50e41f48349b1c"
+  url "https://github.com/kapong/WGMenu/archive/refs/tags/v0.4.0.tar.gz"
+  sha256 "9efebbb6e0aec61e370a75f5732fda16c2c3d4b2bad087439d286589427ff160"
   license "MIT"
 
   depends_on arch: :arm64
@@ -40,6 +40,8 @@ class Wgmenu < Formula
       After `brew upgrade` of wgmenu, wireguard-tools, wireguard-go or bash, re-run
       `sudo wgmenu-setup` to refresh the helper and its root-owned copies of
       wg-quick, wg, wireguard-go and bash in /usr/local/libexec/wgmenu.
+
+      Upgrading to 0.4.0: the helper changed, so `sudo wgmenu-setup` must be re-run.
     EOS
   end
 
