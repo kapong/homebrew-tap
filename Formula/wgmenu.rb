@@ -1,8 +1,8 @@
 class Wgmenu < Formula
   desc "Menu bar app to run multiple WireGuard tunnels at once"
   homepage "https://github.com/kapong/WGMenu"
-  url "https://github.com/kapong/WGMenu/archive/refs/tags/v0.4.0.tar.gz"
-  sha256 "9efebbb6e0aec61e370a75f5732fda16c2c3d4b2bad087439d286589427ff160"
+  url "https://github.com/kapong/WGMenu/archive/refs/tags/v0.5.0.tar.gz"
+  sha256 "612d45c34c36696c264a41d6d90be000cfae279404ebf5edb1b97524827168dd"
   license "MIT"
 
   depends_on arch: :arm64
